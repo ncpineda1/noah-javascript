@@ -85,6 +85,41 @@ console.log(attempt02);
 let attempt03 = makeName('Joe', 'Robineete', 'Biden');
 console.log(attempt03);
 
+// Just a log to show in our console
+console.log("Make better name function:");
+
+function makeBetterName (firstName, middleName, lastName) {
+  let fullName = firstName + " " + middleName + " " + lastName;
+  return fullName;
+}
+console.log(makeBetterName("Joan", "Marie", "Larking"));
+console.log(makeBetterName("John", "F", "Kennedy"));
+
+// Make a name with middle initial
+function makeBetterName (firstName, middleName, lastName) {
+  if (middleName.length === 1) {
+  //adding and updating here
+    middleName = middleName + ".";
+  }
+  let fullName = firstName + " " + middleName + " " + lastName;
+  return fullName;
+}
+console.log(makeBetterName("Michael", "B", "Jordan" ));
+
+console.log ("scoreCompare function");
+function scoreCompare(home, away) {
+  if (home > away) {
+    return "Home team wins!";
+  } else if (home === away) {
+    return "It was a tie";
+  } else {
+    return "Away team wins :("
+  }
+}
+console.log(scoreCompare(5,3));
+console.log(scoreCompare(3,5));
+console.log(scoreCompare(2,2));
+
   </script>
 </body>
 </html>
