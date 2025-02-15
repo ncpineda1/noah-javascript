@@ -10,116 +10,115 @@
   <p>Use your Inspector to view your console.</p>
   <script>
     // Your code will go here
-console.log("Let\'s do math:")
+    console.log("Let\'s do math:")
 
-let x = 5;
-console.log(x);
+    let x = 5;
+    console.log(x);
 
-let y = 3;
-console.log(y);
+    let y = 3;
+    console.log(y);
 
-let z = x * y;
-console.log(z);
+    let z = x * y;
+    console.log(z);
 
-//"Math on my own"
+    //"Math on my own"
 
-let a = 10;
-console.log (a);
+    let a = 10;
+    console.log (a);
 
-let b = 9;
-console.log (b);
+    let b = 9;
+    console.log (b);
 
-let c = a + b;
-console.log(c);
+    let c = a + b;
+    console.log(c);
 
-let d = a - b;
-console.log(d);
+    let d = a - b;
+    console.log(d);
 
-let e = a / b;
-console.log (e);
+    let e = a / b;
+    console.log (e);
 
-console.log("Working with strings:");
+    console.log("Working with strings:");
 
-let firstName = 'Noah';
-let middleName = 'Cho';
-let lastName = 'Pineda';
+    let firstName = 'Noah';
+    let middleName = 'Cho';
+    let lastName = 'Pineda';
 
-let name = firstName + " " + middleName + " " + lastName;
-console.log(name);
+    let name = firstName + " " + middleName + " " + lastName;
+    console.log(name);
 
-//"Strings on your own"
+    //"Strings on your own"
 
-let greeting = 'My name is' + " " + name
-console.log(greeting);
+    let greeting = 'My name is' + " " + name
+    console.log(greeting);
 
-console.log('Using functions:');
+    console.log('Using functions:');
 
-//function to make square numbers
-function makeSquare(theNumb) {
-  let squared = Math.pow(theNumb, 2);
-  return squared;
-}
+    //function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = Math.pow(theNumb, 2);
+      return squared;
+    }
 
-let try01 = makeSquare(3);
-console.log(try01);
+    let try01 = makeSquare(3);
+    console.log(try01);
 
-let try02 = makeSquare(4);
-console.log(try02);
+    let try02 = makeSquare(4);
+    console.log(try02);
 
-let try03 = makeSquare(5);
-console.log(try03);
+    let try03 = makeSquare(5);
+    console.log(try03);
 
-// Functions on my own
+    // Functions on my own
 
-function makeName(firstName, middleName, lastName) {
-  let fullName = firstName + ' ' + middleName + ' ' + lastName
-  return fullName;
-}
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + ' ' + middleName + ' ' + lastName
+      return fullName;
+    }
 
-let attempt01 = makeName("Robert", "Beto", "O'Rourke");
-console.log(attempt01);
+    let attempt01 = makeName("Robert", "Beto", "O'Rourke");
+    console.log(attempt01);
 
-let attempt02 = makeName('Donald', 'John', 'Trump');
-console.log(attempt02);
+    let attempt02 = makeName('Donald', 'John', 'Trump');
+    console.log(attempt02);
 
-let attempt03 = makeName('Joe', 'Robineete', 'Biden');
-console.log(attempt03);
+    let attempt03 = makeName('Joe', 'Robineete', 'Biden');
+    console.log(attempt03);
 
-// Just a log to show in our console
-console.log("Make better name function:");
+    // Just a log to show in our console
+    console.log("Make better name function:");
 
-function makeBetterName (firstName, middleName, lastName) {
-  let fullName = firstName + " " + middleName + " " + lastName;
-  return fullName;
-}
-console.log(makeBetterName("Joan", "Marie", "Larking"));
-console.log(makeBetterName("John", "F", "Kennedy"));
+    function makeBetterName (firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+    console.log(makeBetterName("Joan", "Marie", "Larking"));
+    console.log(makeBetterName("John", "F", "Kennedy"));
 
-// Make a name with middle initial
-function makeBetterName (firstName, middleName, lastName) {
-  if (middleName.length === 1) {
-  //adding and updating here
-    middleName = middleName + ".";
-  }
-  let fullName = firstName + " " + middleName + " " + lastName;
-  return fullName;
-}
-console.log(makeBetterName("Michael", "B", "Jordan" ));
+    // Make a name with middle initial
+    function makeBetterName (firstName, middleName, lastName) {
+      if (middleName.length === 1) {
+      //adding and updating here
+        middleName = middleName + ".";
+      }
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+    console.log(makeBetterName("Michael", "B", "Jordan" ));
 
-console.log ("scoreCompare function");
-function scoreCompare(home, away) {
-  if (home > away) {
-    return "Home team wins!";
-  } else if (home === away) {
-    return "It was a tie";
-  } else {
-    return "Away team wins :("
-  }
-}
-console.log(scoreCompare(5,3));
-console.log(scoreCompare(3,5));
-console.log(scoreCompare(2,2));
-
+    console.log ("scoreCompare function");
+    function scoreCompare(home, away) {
+      if (home > away) {
+        return "Home team wins!";
+      } else if (home === away) {
+        return "It was a tie";
+      } else {
+        return "Away team wins :("
+      }
+    }
+    console.log(scoreCompare(5,3));
+    console.log(scoreCompare(3,5));
+    console.log(scoreCompare(2,2));
   </script>
 </body>
 </html>
